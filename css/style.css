@@ -10,7 +10,9 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -23,6 +25,9 @@ h1 {
 
 h2 {
   font-size: 64px;
+}
+h4 {
+  font-size: 48px;
 }
 
 p {
@@ -211,5 +216,8 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  h4 {
+    font-size: 26px;
   }
 }
