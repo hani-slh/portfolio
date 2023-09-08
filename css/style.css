@@ -151,7 +151,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: #31c48d;
 }
 
 footer {
@@ -197,9 +197,17 @@ footer .social-links a:hover {
   max-width: 380px;
   margin-left: 140px;
   margin-bottom: 60px;
+  border-radius: 15px;
 }
 .weather-pic {
   margin-top: 120px;
+}
+a.links {
+  text-decoration: none;
+  font-weight: bold;
+}
+a.links:hover {
+  color: #31c48d;
 }
 
 @media (max-width: 800px) {
